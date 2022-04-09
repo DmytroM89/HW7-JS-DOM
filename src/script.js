@@ -3,7 +3,7 @@ const shapeSelect = document.querySelector('#shapeSelect');
 const inputColor = document.querySelector('#inputColor');
 const applyColorBtn = document.querySelector('#applyColor');
 const resetBtn = document.querySelector('#reset');
-let color = '';
+let color = '#000000';
 let selectedShape = '';
 
 shapeSelect.addEventListener('change', (e) => {
